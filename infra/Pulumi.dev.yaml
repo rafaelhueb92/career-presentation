@@ -1,0 +1,14 @@
+config:
+  aws:region: us-east-1
+  career-presentation:githubOrg:
+    description: GitHub organization / user that owns the repository.
+    default: rafaelhueb92
+  career-presentation:githubRepo:
+    description: GitHub repository name allowed to assume the deploy role.
+    default: career-presentation
+  career-presentation:githubBranch:
+    description: Git ref allowed to deploy (used in the OIDC subject claim).
+    default: master
+  career-presentation:priceClass:
+    description: CloudFront price class (PriceClass_100 | PriceClass_200 | PriceClass_All).
+    default: PriceClass_100
