@@ -72,7 +72,8 @@
         "cloudfront:GetOriginAccessControlConfig",
         "cloudfront:UpdateOriginAccessControl",
         "cloudfront:DeleteOriginAccessControl",
-        "cloudfront:ListOriginAccessControls"
+        "cloudfront:ListOriginAccessControls",
+        "cloudfront:CreateInvalidation"
       ],
       "Resource": "*"
     }
