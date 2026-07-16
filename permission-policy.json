@@ -33,7 +33,7 @@
         "s3:GetObjectTagging",
         "s3:PutObjectTagging",
         "s3:DeleteObjectTagging",
-        "S3: GetBucketAcl"
+        "s3:GetBucketAcl"
       ],
       "Resource": "arn:aws:s3:::*/*"
     },
