@@ -22,7 +22,8 @@
         "s3:DeleteBucketTagging",
         "s3:GetBucketAcl",
         "s3:GetBucketCors",
-        "s3:GetBucketWebsite"
+        "s3:GetBucketWebsite",
+        "s3:GetBucketAccelerateConfiguration"
       ],
       "Resource": "arn:aws:s3:::*"
     },
