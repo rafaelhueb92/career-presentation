@@ -1,0 +1,13 @@
+# Python / Pulumi
+infra/venv/
+__pycache__/
+*.pyc
+
+# Pulumi local state (if using local backend)
+.pulumi/
+
+# OS
+.DS_Store
+
+# Keep the source PDF out of the deploy if you prefer:
+# Rafael_CloudSWE.pdf

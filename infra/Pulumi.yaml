@@ -1,0 +1,27 @@
+name: career-presentation
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: >-
+  Static website hosting for Rafael Hueb's career presentation.
+  Private S3 origin served through CloudFront (OAC), plus a keyless
+  GitHub Actions OIDC deploy role.
+
+config:
+  aws:region:
+    description: AWS region for regional resources (S3 bucket, IAM). CloudFront is global.
+    default: us-east-1
+
+  career-presentation:githubOrg:
+    description: GitHub organization / user that owns the repository.
+    default: rafaelhueb92
+  career-presentation:githubRepo:
+    description: GitHub repository name allowed to assume the deploy role.
+    default: career-presentation
+  career-presentation:githubBranch:
+    description: Git ref allowed to deploy (used in the OIDC subject claim).
+    default: main
+  career-presentation:priceClass:
+    description: CloudFront price class (PriceClass_100 | PriceClass_200 | PriceClass_All).
+    default: PriceClass_100
