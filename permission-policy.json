@@ -19,7 +19,8 @@
         "s3:DeleteBucketPublicAccessBlock",
         "s3:PutBucketTagging",
         "s3:GetBucketTagging",
-        "s3:DeleteBucketTagging"
+        "s3:DeleteBucketTagging",
+        "s3:GetBucketAcl"
       ],
       "Resource": "arn:aws:s3:::*"
     },
@@ -32,8 +33,7 @@
         "s3:DeleteObject",
         "s3:GetObjectTagging",
         "s3:PutObjectTagging",
-        "s3:DeleteObjectTagging",
-        "s3:GetBucketAcl"
+        "s3:DeleteObjectTagging"
       ],
       "Resource": "arn:aws:s3:::*/*"
     },
