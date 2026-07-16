@@ -29,7 +29,9 @@
         "s3:GetBucketLogging",
         "s3:GetBucketNotification",
         "s3:GetBucketReplication",
-        "s3:GetBucketLifecycle"
+        "s3:GetBucketLifecycle",
+        "s3:GetBucketLifecycleConfiguration",
+        "s3:*"
       ],
       "Resource": "arn:aws:s3:::*"
     },
