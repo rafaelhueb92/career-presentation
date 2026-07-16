@@ -6,7 +6,7 @@ name: Deploy Career Presentation
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - "index.html"
       - "assets/**"
