@@ -23,7 +23,9 @@
         "s3:GetBucketAcl",
         "s3:GetBucketCors",
         "s3:GetBucketWebsite",
-        "s3:GetBucketAccelerateConfiguration"
+        "s3:GetBucketAccelerateConfiguration",
+        "s3:GetAccelerateConfiguration",
+        "s3:GetBucketRequestPayment"
       ],
       "Resource": "arn:aws:s3:::*"
     },
